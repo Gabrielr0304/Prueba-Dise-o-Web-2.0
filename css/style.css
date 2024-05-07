@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-dorado: #EDB44D;
+	--color-general: #adb0b8;
+	--color-titulos: #dbdce4;
+	--fondo-negro: #09090d;
+	--fondo-azul: #101117;
+	--fondo-features: #121520;
+	--fondo-footer: #040406;
+	--color-footer: #373946;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#hero-title{
+	padding-top: 5%;
+	padding-bottom: 15%;
+	background-color:var(--fondo-negro);
+}
+
+#hero-title h5{
+	font-weight: 200;
+	color: var(--color-dorado);
+}
+
+#hero-title h1{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.btn-base{
+	background-color: var(--color-footer);
+	color: #fff;
+	
+	border-radius: 40px;
+	font-size: 10px;
+	font-weight: 500;
+}
+
+.capa-phone2 {
+	position: absolute;
+	top: 35%;
+	right: 0px;
+	z-index: 3;
+	transition: all 0.5s ease-in-out;
+}
+
+.capa-phone1 {
+	
+}
+
+#Features {
+	
+}
+
+.icon123 {
+	font-size: 50px;
+	margin-bottom: 80%;
+	color: #FFFFFF;
+	text-align: right;
+	
+}
+
+
+.padding-1 {
+	padding-bottom: 15px;
+}
+
+.probando {
+	background: var(--fondo-azul);
+	padding-top: 5%;
+	
+}
+
+.icon1234 {
+	font-size: 100px;
+	color: var(--color-dorado);
+	padding-left: 47%;
+}
+
+
+.border {
+	background-color: var(--color-dorado);
+	color: #FFFFFF;
+	border-radius: 100%;
+	border-width: medium;
+}
+
+.text-allign {
+	text-align: left;
+}
+
+li {
+	margin-right: none;
+	padding-right: none;
+}
+
+.border {
+	
+}
+
+.probando2 {
+	background-color: var(--fondo-features);
+}
+
+.padding-2 {
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+
+.icon12345 {
+	font-size: 60px;
+	margin-bottom: 40%;
+	color: var(--color-dorado)
+}
+
+.titulos {
+	color:var(--color-titulos);
+}
+
+.padding-3 {
+	padding-left: 10%
+}
+
+.featurealign {
+	text-align: end;
+}
+
+.text-allign2 {
+	text-align: end;
+}
+
+.fondo {
+	background-color: var(--fondo-features);
+}
+
+#Subscribe {
+	background-color: var(--fondo-negro);
+	text-align: center;
+}
+
+footer {
+	background-color: #000000;
+	color: var(--color-general);
+	padding: 2% 0;
+	text-align: center;
+}
+
+.icon123456 {
+	font-size: 100px;
+ text-align: center;
+}
+
+.form-control {
+	
+}
